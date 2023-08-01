@@ -1,0 +1,65 @@
+
+  .navbar {
+    background-color: #fcfcfc;
+    color: #278a42;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 25px;
+    font-weight:bolder;
+    font-family: 'Roboto', sans-serif; 
+    text-transform: uppercase; /* Convert the logo text to uppercase */
+    letter-spacing: 0.5px; /* Add some letter-spacing for better visual impact */
+    padding: 5px 10px; /* Add some padding around the logo */
+    border-radius: 15px; /* Add border-radius for a slight rounded appearance */
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+  }
+  
+  .nav-links li {
+    margin-left: 15px;
+  }
+  
+  .nav-links li a {
+    color: #111111;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+  .nav-links li a:hover {
+    color: #1dac10;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ede7e7;
+    padding: 5px;
+  }
+  
+  .dropdown-content li {
+    margin: 5px 0;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  

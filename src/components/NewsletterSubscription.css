@@ -1,0 +1,56 @@
+/* NewsletterSubscription.css */
+
+.newsletter-subscription {
+    text-align: center;
+    max-width: 1500px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background-color: #f9f9f9;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newsletter-subscription h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-subscription p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px; 
+  margin: 0 auto;
+  }
+  
+  input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #23984c;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1f5726;
+  }
+  
